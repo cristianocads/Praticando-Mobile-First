@@ -16,11 +16,12 @@
     display: flex;
     align-items: center;
     gap: 16px;
-    padding: 0.625rem 1.5rem;
+    padding: 0.625rem 1rem;
 }
 .lista-menu {
     display: none;
     position: absolute;
+    left: 0;
     top: 100%;
     width: 50vw;
 }
@@ -30,11 +31,12 @@
 }
 
 .lista-menu__titulo, .lista-menu__item {
-    padding: 0.45rem;
+    padding: 0.5rem 1rem;
     background-color: white;
 }
 .lista-menu__titulo {
-    color: var(--laranja)
+    color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link {
@@ -43,4 +45,9 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container__menu {
+    display: none;
 }
