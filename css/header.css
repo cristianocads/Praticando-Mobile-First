@@ -1,0 +1,7 @@
+.cabecalho__menu-hamburguer {
+    display: inline-block; /* Torna o <span> um elemento de bloco */
+    width: 36px; /* Defina o tamanho conforme necessário */
+    height: 24px; /* Defina o tamanho conforme necessário */
+    background-image: url("../assets/Menu.svg");
+}
+    
