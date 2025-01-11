@@ -3,17 +3,54 @@
 
 :root {
     --cor-de-fundo: #EBECEE;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
 
 body {
     background-color: var(--cor-de-fundo);
 }
-/*.cabecalho {
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    background-color: white;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*.menuLogo {
     display: flex;
     align-items: center;
