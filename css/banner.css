@@ -44,10 +44,11 @@
     background: var(--azul-degrade);
     color: white;
     text-align: center;
-    padding: 2rem 2rem;
+    padding: 1rem 0rem;
 }
 .banner__titulo {
-    font-weight: 400;
+    font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 .botões__topicos {
@@ -62,12 +63,16 @@
 .cadastro {
     color: var(--azul);
     text-align: left;
-    padding: 2rem 2rem;
+    padding: 1rem;
 }
 
 .cadastro__titulo {
     font-size: 1.125rem;
     font-weight: 500;
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .cadastro__texto {
@@ -78,10 +83,10 @@
 .cadastro__email {
     background-color: transparent;
     border: 1px solid var(--azul);
-    color: white;
+    color: var(--azul);
     border-radius: 24px;
     padding: 1rem;
-    width: 100%;
+    width: 90%;
 }
 
 .cadastro__email::placeholder {
@@ -91,5 +96,17 @@
     text-align: left;
     color: var(--azul);
     background: url("../assets/Vector_Email.svg") no-repeat;
-    background-position:1rem;
+    padding-left: 2rem;
 }
+
+.banner__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.banner__item {
+    margin: 2rem 0.5rem;
+}
+
