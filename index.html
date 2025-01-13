@@ -39,7 +39,27 @@
         </div>
 
         <ul class="opções">
-            <li class="opções__item">Categorias</li>
+            <input type="checkbox" name="opções-menu" id="opções-menu" class="opções__botão">
+            <label for="opções-menu">
+                <li class="opções__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+            </ul>
             <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
             <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
         </ul>
@@ -186,8 +206,10 @@
             </ul>
         </div>
         <div class="cadastro">
-            <h2 class="cadastro__titulo">Fique por dentro das novidades!</h1>
-            <p class="cadastro__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            <div class="cadastro__contato">
+                <h2 class="cadastro__titulo">Fique por dentro das novidades!</h1>
+                <p class="cadastro__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            </div>
             <input type="email" placeholder="Cadastre seu e-mail" name="cadastro__email" id="cadastro_email" class="cadastro__email">
         </div>
 
@@ -204,8 +226,115 @@
             },
         }); 
     </script>
-    <footer>
-        <h2 class="rodape">Grupo Alura</h2>
+    <footer class="rodape">
+        <h2 class="rodape__titulo">Grupo Alura</h2>
+        <div class="rodape__imagem">
+            <div class="rodape_coluna">
+                <h3 class="rodape__coluna-titulo">EDUCAÇÃO</h3>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/Caelum.svg" alt="Caelum">
+                        <p>Caelum</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/CasaDoCodigo.svg" alt="Casa do Código">
+                        <p>Casa do Código</p>
+                    </a>
+                </div>
+            </div>
+            <div class="rodape_coluna">
+                <h3 class="rodape__coluna-titulo">EDUCAÇÃO ONLINE</h3>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/Alura.svg" alt="Alura">
+                        <p>Alura</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/AluraEmpresas.svg" alt="Alura para Empresas">
+                        <p>Alura para Empresas</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/AluraLatam.svg" alt="Alura LATAM">
+                        <p>Alura LATAM</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/AluraStart.svg" alt="Alura Start">
+                        <p>Alura Start</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/MusicDot.svg" alt="MusicDot">
+                        <p>MusicDot</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/AluraLingua.svg" alt="Alura Língua">
+                        <p>Alura Língua</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/PM3.svg" alt="PM3">
+                        <p>PM3</p>
+                    </a>
+                </div>
+            </div>
+            <div class="rodape_coluna">
+                <h3 class="rodape__coluna-titulo">COMUNIDADE</h3>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/HipstersTech.svg" alt="Hipsters ponto Tech">
+                        <p>Hipsters ponto Tech</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/Scuba.svg" alt="Scuba Dev">
+                        <p>Scuba Dev</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/Layers.svg" alt="Layers ponto Tech">
+                        <p>Layers ponto Tech</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/LikeABoss.svg" alt="Like a Boss">
+                        <p>Like a Boss</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/CarreiraSemFronteira.svg" alt="Carreira sem Fronteira">
+                        <p>Carreira sem Fronteira</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/HipstersJobs.svg" alt="Hipsters ponto Jobs">
+                        <p>Hipsters ponto Jobs</p>
+                    </a>
+                </div>
+                <div class="rodape__item">
+                    <a href="#" class="rodape__item-link">
+                        <img src="/assets/rodape/GUJ.svg" alt="GUJ">
+                        <p>GUJ</p>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

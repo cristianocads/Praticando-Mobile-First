@@ -110,3 +110,50 @@
     margin: 2rem 0.5rem;
 }
 
+@media screen and (min-width: 1024px) {
+    .banner__titulo {
+        font-size: 2.25rem;
+        font-weight: bold;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 5rem;
+    }
+
+    .botões__topicos {
+        font-size: 1.625rem;
+    }
+
+    .cadastro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+        margin: 0 5rem;
+    }
+
+    .cadastro__titulo {
+        font-size: 1.625rem;
+        width: 80%;
+    }
+
+    .cadastro__texto {
+        margin-right: 1rem;
+        width: 80%;
+    }
+
+    .cadastro__email {
+        width: 50%;
+    }
+
+    .cadastro__email::placeholder {
+        font-size: 1rem;
+        background-position: 1rem center;
+        padding-left: 3rem;
+    }
+
+}

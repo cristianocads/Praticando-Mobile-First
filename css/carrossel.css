@@ -81,3 +81,27 @@
     color: var(--laranja);
     margin-bottom: 0.5rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 1.625rem;
+    }
+
+    .swiper-pagination {
+        margin: 2rem 0 2rem 0;
+    }
+
+    .swiper { 
+        width: 60%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 55%;
+    }
+
+    .card {
+        width: 50%;
+        margin: 2rem auto;
+    }
+}
