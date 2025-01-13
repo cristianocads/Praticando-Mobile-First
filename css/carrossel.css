@@ -105,3 +105,37 @@
         margin: 2rem auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .carrossel_slide {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 15vw 3rem 15vw;
+    }
+    .carrossel__titulo {
+        font-size: 2rem;
+    }
+    .swiper-pagination {
+        margin: 1rem 0 1rem 0;
+    }
+    .card {
+        width:50%;
+        margin-left: 3rem;
+    }
+
+    .descrição__titulo {
+        font-size: 2rem;
+    }
+    .descrição__titulo-livro {
+        font-size: 1.125rem;
+    }
+    .descrição__texto {
+        font-size: 1rem;
+    }
+    .swiper {
+        width: 50%;
+    }
+    
+}
+   

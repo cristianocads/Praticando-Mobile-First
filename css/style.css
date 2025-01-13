@@ -76,3 +76,56 @@ footer {
     }
     
 }
+
+@media screen and (min-width: 1728px) {
+    .rodape {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 colunas iguais */
+        gap: 1rem; /* Espaço entre as colunas */
+        padding: 2rem;
+        background-color: white;
+    }
+    
+    .rodape__titulo {
+        grid-column: span 1; /* A coluna do título ocupa 1 espaço */
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: left;
+    }
+    
+    .rodape__imagem {
+        display: contents; /* Deixa as colunas diretas */
+    }
+    
+    .rodape_coluna {
+        display: flex;
+        flex-direction: column;
+        border-left: 1px solid #858585;
+        padding-left: 1rem;
+    }
+    
+    .rodape__coluna-titulo {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .rodape__item {
+        display: flex;
+        align-items: center;
+    }
+    
+    .rodape__item img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .rodape__item-link {
+        text-decoration: none;
+        color: #474646;
+    }
+    
+    .rodape__item-link:hover {
+        text-decoration: underline;
+    }
+    
+}

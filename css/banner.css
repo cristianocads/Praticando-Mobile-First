@@ -31,7 +31,7 @@
     text-align: center;
     color: white;
     background: url("../assets/Vector.svg") no-repeat;
-    background-position: 3rem;
+    background-position: 1rem;
 }
 
 .container__final {
@@ -156,4 +156,44 @@
         padding-left: 3rem;
     }
 
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa {
+        width: 35%;
+    }
+    .banner__pesquisa::placeholder {
+        background-position: 10rem;
+    }
+
+    .banner {
+        padding: 6rem 0;
+    }
+
+    .cadastro {
+        margin: 2rem 25vw;
+    }
+    .cadastro__email {
+        width: 40%;
+    }
+    .cadastro__email::placeholder {
+        font-size: 1rem;
+        background-position: 1rem;
+        padding-left: 3rem;
+    }
+    .banner__final {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner__lista {
+        width: 50%;
+        align-items: center;
+    }
+
+    .botões__topicos {
+        font-size: 2rem;
+    }
 }
