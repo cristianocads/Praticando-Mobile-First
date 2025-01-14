@@ -12,7 +12,10 @@
 ```markdown
 ## 📖 Sobre o Projeto
 
-Este repositório contém os arquivos e exercícios realizados durante a aula da Alura sobre **HTML, CSS e Responsividade com abordagem Mobile First**. O objetivo é criar páginas web que se adaptem a diferentes tamanhos de dispositivos, utilizando boas práticas de desenvolvimento front-end.
+Este repositório contém os arquivos e exercícios realizados durante a aula da Alura sobre
+ **HTML, CSS e Responsividade com abordagem Mobile First**. O objetivo é criar páginas web
+ que se adaptem a diferentes tamanhos de dispositivos, utilizando boas práticas de 
+ desenvolvimento front-end.
 
 ## 📚 Tecnologias Utilizadas
 
